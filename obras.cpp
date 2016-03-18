@@ -16,6 +16,6 @@ Obras::~Obras(){
 
 string Obras::toString()const{
 	stringstream ss;
-	ss << "Obras: " << nombre << ", " << autor << ", " << fecha_ingreso << " ";
+	ss << "Obra: " << nombre << ", " << autor << ", " << fecha_ingreso << " ";
 	return ss.str();
 }

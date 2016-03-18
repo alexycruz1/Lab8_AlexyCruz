@@ -5,10 +5,10 @@
 using std::string;
 
 class Esculturas : public Obras{
-	string peso;
+	int peso;
 	string material;
   public:
-  	Esculturas(string, string, string, string, string);
+  	Esculturas(string, string, string, int, string);
 	Esculturas(const Esculturas&);
 	~Esculturas();
 	string toString()const;
