@@ -16,6 +16,6 @@ Esculturas::~Esculturas(){
 
 string Esculturas::toString()const{
 	stringstream ss;
-	ss << Obras::toString() << "Esculturas: " << peso << ", " << material;
+	ss << Obras::toString() << "Escultura: " << peso << ", " << material;
 	return ss.str();
 }

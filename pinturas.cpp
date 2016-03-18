@@ -16,6 +16,6 @@ Pinturas::~Pinturas(){
 
 string Pinturas::toString()const{
 	stringstream ss;
-	ss << Obras::toString() << "Pinturas: " << material;
+	ss << Obras::toString() << "Pintura: " << material;
 	return ss.str();
 }

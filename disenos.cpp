@@ -16,6 +16,6 @@ Disenos::~Disenos(){
 
 string Disenos::toString()const{
 	stringstream ss;
-	ss << Obras::toString() << "Disenos: " << tipo_terreno;
+	ss << Obras::toString() << "Diseno arquitectonico: " << tipo_terreno;
 	return ss.str();
 }

@@ -50,6 +50,7 @@ int main(int argc, char* argv[]){
 
 			Literaturas p(nombre, autor, fecha, genero_lit, epoca);
 			lista.push_back(p);
+			cout << "Enhorabuena!, Has creado una obra literaria" << endl << endl;
 
 		}else if(opcion == 2){
 			string nombre, autor, fecha, material;
@@ -73,6 +74,8 @@ int main(int argc, char* argv[]){
 
 			Esculturas p(nombre, autor, fecha, peso, material);
 			lista.push_back(p);
+			cout << "Enhorabuena!, Has creado una escultura" << endl << endl;
+
 		}else if(opcion == 3){
 			string nombre, autor, fecha, material, tecnica;
 
@@ -94,6 +97,8 @@ int main(int argc, char* argv[]){
 
 			Pinturas p(nombre, autor, fecha, material, tecnica);
 			lista.push_back(p);
+			cout << "Enhorabuena!, Has creado una pintura" << endl << endl;
+
 		}else if(opcion == 4){
 			string nombre, autor, fecha, tipo_terreno;
 
@@ -108,10 +113,11 @@ int main(int argc, char* argv[]){
 
 			cout << "Ingrese el tipo de terreno sobre el cual se hizo el diseno arquitectonico: ";
 			cin >> tipo_terreno;
-			cout << endl;
 
 			Disenos p(nombre, autor, fecha, tipo_terreno);
 			lista.push_back(p);
+			cout << "Enhorabuena!, Has creado un diseno arquitectonico" << endl << endl;
+			
 		}else if (opcion == 5){
 			int posicion;
 			int cont = 0;
@@ -153,5 +159,6 @@ int main(int argc, char* argv[]){
 		}
 	}
 
+	cout << "GRACIAS POR USAR EL PROGRAMA!" << endl;
 	return 0;
 }

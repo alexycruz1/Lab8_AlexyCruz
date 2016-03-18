@@ -16,6 +16,6 @@ Literaturas::~Literaturas(){
 
 string Literaturas::toString()const{
 	stringstream ss;
-	ss << Obras::toString() << "Literaturas: " << genero_lit << ", " << epoca;
+	ss << Obras::toString() << "Obra literaria: " << genero_lit << ", " << epoca;
 	return ss.str();
 }
